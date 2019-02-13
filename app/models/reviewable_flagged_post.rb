@@ -135,6 +135,7 @@ class ReviewableFlaggedPost < Reviewable
     PostAction.update_flagged_posts_count
     create_result(:success, :ignored)
   end
+
 end
 
 # == Schema Information
